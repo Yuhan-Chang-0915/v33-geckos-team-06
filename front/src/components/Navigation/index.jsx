@@ -11,7 +11,7 @@ export default class Navigation extends Component {
                 {/* expand:在小于md时候collapse，variant:字体颜色 fixed:固定上方*/}
                 <Navbar className="nav" variant="light" expand="sm" fixed="top">
 
-                    <Navbar.Brand id="brand" href="/homepage">
+                    <Navbar.Brand id="brand" href="/mainpage">
                         <img width="30"
                             height="30"
                             // className="d-inline-block align-top"

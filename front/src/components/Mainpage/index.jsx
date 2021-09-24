@@ -3,8 +3,11 @@ import "./index.css";
 import ResourceCards from "../ResourceCards";
 import Navigation from "../Navigation";
 import Bottom from "../Bottom";
+import ImageSliderComponent from "../ImageSlider";
+
 
 import { GetGames } from "../../utils/FirebaseConnector";
+
 
 const Index = () => {
   const [resourceCards, setResourceCards] = useState([]);
@@ -107,6 +110,7 @@ const Index = () => {
                           author={dataItem.author}
                           genre={dataItem.genre}
                           platform={dataItem.platform}
+                          
                         />
                       )
                       // <tr key={data.id}>
